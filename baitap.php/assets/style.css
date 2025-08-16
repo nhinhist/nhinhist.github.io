@@ -1,0 +1,20 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,Segoe UI,Roboto,Arial;background:#0f172a;color:#e5e7eb;min-height:100vh;display:flex;align-items:center;justify-content:center}
+.container{width:min(960px,92vw);background:#0b1220;border:1px solid #1e293b;border-radius:16px;padding:22px}
+h1{font-size:28px;margin-bottom:14px;text-align:center;color:#93c5fd}
+.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:8px}
+.btn{display:block;text-align:center;padding:12px 14px;background:#111827;border:1px solid #334155;border-radius:12px;color:#e5e7eb;text-decoration:none}
+.btn:hover{border-color:#60a5fa}
+.back{display:inline-block;margin:10px 0 16px;padding:8px 12px;border:1px solid #334155;border-radius:10px;color:#e5e7eb;text-decoration:none}
+.back:hover{border-color:#60a5fa}
+.page{background:#0b1220;border:1px solid #1f2a44;border-radius:12px;padding:16px}
+table{width:100%;border-collapse:collapse;margin-top:10px;background:#0b1220}
+th,td{border:1px solid #334155;padding:8px;text-align:left}
+th{background:#111827}
+.pagination{text-align:center;margin:12px 0}
+.pagination a,.pagination span{display:inline-block;margin:3px;padding:6px 10px;border:1px solid #334155;border-radius:8px;color:#e5e7eb;text-decoration:none}
+.pagination a:hover{border-color:#60a5fa}
+.pagination .active{border-color:#60a5fa;outline:2px solid #60a5fa}
+.controls{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0;justify-content:center}
+input,select,button{padding:8px 10px;border-radius:8px;border:1px solid #334155;background:#0b1220;color:#e5e7eb}
+button{cursor:pointer}
